@@ -87,7 +87,6 @@ void GameOfLife::nextGen(vector<vector<int>>& board)
     }
 }
 
-
 void GameOfLife::loop()
 {
     fflush(stdin);

@@ -27,7 +27,7 @@ public:
     VisualGameOfLife(uint height, uint width);
     ~VisualGameOfLife();
 
-    void draw() const;
+    virtual void draw() const;
 };
 
 #endif /* VisualGameOfLife_hpp */
