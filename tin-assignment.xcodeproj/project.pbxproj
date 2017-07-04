@@ -75,8 +75,7 @@
 				7DAB62A51F0C012800E90328 /* VisualGameOfLife.cpp */,
 				7DAB62A61F0C012800E90328 /* VisualGameOfLife.hpp */,
 			);
-			name = "tuin-assignment";
-			path = "tunein - assignment";
+			path = "tuin-assignment";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
