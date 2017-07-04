@@ -26,7 +26,7 @@ The user can use the following **keys** when available:
 * **[S]** : Stop, to pause
 * **[X]** : Quit game
 
-You can use your mouse to toggle any the status of any cell at any time. However it is prefereable to pause the game first.
+You can use your mouse to toggle the status of any cell at any time. However it is prefereable to pause the game first.
 
 ## Section 4. Requirements
 
