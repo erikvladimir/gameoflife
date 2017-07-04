@@ -10,6 +10,8 @@
 		7DAB62981F0BD44B00E90328 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DAB62971F0BD44B00E90328 /* main.cpp */; };
 		7DAB629F1F0BFBDB00E90328 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 7DAB629E1F0BFBDB00E90328 /* Makefile */; };
 		7DAB62A11F0BFC0400E90328 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 7DAB62A01F0BFC0400E90328 /* README.md */; };
+		7DAB62A41F0C00F100E90328 /* GameOfLife.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DAB62A21F0C00F100E90328 /* GameOfLife.cpp */; };
+		7DAB62A71F0C012800E90328 /* VisualGameOfLife.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DAB62A51F0C012800E90328 /* VisualGameOfLife.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +31,10 @@
 		7DAB62971F0BD44B00E90328 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		7DAB629E1F0BFBDB00E90328 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = Makefile; path = "tunein - assignment/Makefile"; sourceTree = "<group>"; };
 		7DAB62A01F0BFC0400E90328 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7DAB62A21F0C00F100E90328 /* GameOfLife.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameOfLife.cpp; sourceTree = "<group>"; };
+		7DAB62A31F0C00F100E90328 /* GameOfLife.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GameOfLife.hpp; sourceTree = "<group>"; };
+		7DAB62A51F0C012800E90328 /* VisualGameOfLife.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VisualGameOfLife.cpp; sourceTree = "<group>"; };
+		7DAB62A61F0C012800E90328 /* VisualGameOfLife.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = VisualGameOfLife.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,10 @@
 			isa = PBXGroup;
 			children = (
 				7DAB62971F0BD44B00E90328 /* main.cpp */,
+				7DAB62A21F0C00F100E90328 /* GameOfLife.cpp */,
+				7DAB62A31F0C00F100E90328 /* GameOfLife.hpp */,
+				7DAB62A51F0C012800E90328 /* VisualGameOfLife.cpp */,
+				7DAB62A61F0C012800E90328 /* VisualGameOfLife.hpp */,
 			);
 			path = "tunein - assignment";
 			sourceTree = "<group>";
@@ -127,6 +137,8 @@
 			files = (
 				7DAB62A11F0BFC0400E90328 /* README.md in Sources */,
 				7DAB629F1F0BFBDB00E90328 /* Makefile in Sources */,
+				7DAB62A41F0C00F100E90328 /* GameOfLife.cpp in Sources */,
+				7DAB62A71F0C012800E90328 /* VisualGameOfLife.cpp in Sources */,
 				7DAB62981F0BD44B00E90328 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
