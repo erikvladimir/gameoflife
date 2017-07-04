@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7DAB62931F0BD44B00E90328"
-               BuildableName = "tunein - assignment"
-               BlueprintName = "tunein - assignment"
-               ReferencedContainer = "container:tunein - assignment.xcodeproj">
+               BuildableName = "tin-assignment"
+               BlueprintName = "tin-assignment"
+               ReferencedContainer = "container:tin-assignment.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7DAB62931F0BD44B00E90328"
-            BuildableName = "tunein - assignment"
-            BlueprintName = "tunein - assignment"
-            ReferencedContainer = "container:tunein - assignment.xcodeproj">
+            BuildableName = "tin-assignment"
+            BlueprintName = "tin-assignment"
+            ReferencedContainer = "container:tin-assignment.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7DAB62931F0BD44B00E90328"
-            BuildableName = "tunein - assignment"
-            BlueprintName = "tunein - assignment"
-            ReferencedContainer = "container:tunein - assignment.xcodeproj">
+            BuildableName = "tin-assignment"
+            BlueprintName = "tin-assignment"
+            ReferencedContainer = "container:tin-assignment.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7DAB62931F0BD44B00E90328"
-            BuildableName = "tunein - assignment"
-            BlueprintName = "tunein - assignment"
-            ReferencedContainer = "container:tunein - assignment.xcodeproj">
+            BuildableName = "tin-assignment"
+            BlueprintName = "tin-assignment"
+            ReferencedContainer = "container:tin-assignment.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

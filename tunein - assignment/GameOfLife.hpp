@@ -1,7 +1,5 @@
 //
 //  GameOfLife.hpp
-//  tunein - assignment
-//
 //  Created by Erik V. Ortega on 04/07/2017.
 //  Copyright © 2017 Erik V. Ortega. All rights reserved.
 //
@@ -9,7 +7,7 @@
 #ifndef GameOfLife_hpp
 #define GameOfLife_hpp
 
-#include <iostream>#include <iostream>
+#include <iostream>
 #include <stdio.h>
 
 #include <vector>
@@ -22,9 +20,12 @@
 
 using namespace std;
 
+/**
+ * This class contains the game logic 
+ */
 class GameOfLife
 {
-private:
+protected:
     vector<vector<int>> m_board;
     uint m_posx = 33u;
     uint m_posy = 2u;
@@ -32,29 +33,17 @@ private:
     bool m_running;
     mutex m_board_mtx;
 
-protected:
-
-
     void initialise();
-
     void toggleCell (uint mouse_y, uint mouse_x);
-    void drawBoard() const;
-    void drawMenu() const;
-
-    void drawStatus() const;
-    void drawHint() const;
-
-    void drawBanner() const;
-
+    
     static int liveNeig(vector<vector<int>>& board, int row, int col);
-
     static void nextGen(vector<vector<int>>& board);
 
 public:
     GameOfLife(uint height, uint width);
-    ~GameOfLife();
+    virtual ~GameOfLife();
 
-    void draw() const;
+    virtual void draw() const = 0;
 
     void loop();
 };

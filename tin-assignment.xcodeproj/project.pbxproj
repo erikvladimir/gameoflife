@@ -27,7 +27,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7DAB62941F0BD44B00E90328 /* tunein - assignment */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "tunein - assignment"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DAB62941F0BD44B00E90328 /* tin-assignment */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "tin-assignment"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DAB62971F0BD44B00E90328 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		7DAB629E1F0BFBDB00E90328 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = Makefile; path = "tunein - assignment/Makefile"; sourceTree = "<group>"; };
 		7DAB62A01F0BFC0400E90328 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 		7DAB62951F0BD44B00E90328 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7DAB62941F0BD44B00E90328 /* tunein - assignment */,
+				7DAB62941F0BD44B00E90328 /* tin-assignment */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,9 +81,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7DAB62931F0BD44B00E90328 /* tunein - assignment */ = {
+		7DAB62931F0BD44B00E90328 /* tin-assignment */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7DAB629B1F0BD44B00E90328 /* Build configuration list for PBXNativeTarget "tunein - assignment" */;
+			buildConfigurationList = 7DAB629B1F0BD44B00E90328 /* Build configuration list for PBXNativeTarget "tin-assignment" */;
 			buildPhases = (
 				7DAB62901F0BD44B00E90328 /* Sources */,
 				7DAB62911F0BD44B00E90328 /* Frameworks */,
@@ -93,9 +93,9 @@
 			);
 			dependencies = (
 			);
-			name = "tunein - assignment";
+			name = "tin-assignment";
 			productName = "tunein - assignment";
-			productReference = 7DAB62941F0BD44B00E90328 /* tunein - assignment */;
+			productReference = 7DAB62941F0BD44B00E90328 /* tin-assignment */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -113,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7DAB628F1F0BD44B00E90328 /* Build configuration list for PBXProject "tunein - assignment" */;
+			buildConfigurationList = 7DAB628F1F0BD44B00E90328 /* Build configuration list for PBXProject "tin-assignment" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -125,7 +125,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7DAB62931F0BD44B00E90328 /* tunein - assignment */,
+				7DAB62931F0BD44B00E90328 /* tin-assignment */,
 			);
 		};
 /* End PBXProject section */
@@ -254,7 +254,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7DAB628F1F0BD44B00E90328 /* Build configuration list for PBXProject "tunein - assignment" */ = {
+		7DAB628F1F0BD44B00E90328 /* Build configuration list for PBXProject "tin-assignment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7DAB62991F0BD44B00E90328 /* Debug */,
@@ -263,7 +263,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7DAB629B1F0BD44B00E90328 /* Build configuration list for PBXNativeTarget "tunein - assignment" */ = {
+		7DAB629B1F0BD44B00E90328 /* Build configuration list for PBXNativeTarget "tin-assignment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7DAB629C1F0BD44B00E90328 /* Debug */,
